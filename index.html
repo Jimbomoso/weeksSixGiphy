@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GOT Giphys?</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+    <span class="navbar-brand mb-0 h1">GOT Giphy Search</span>
+    <form class="form-inline my-2 my-lg-0" id="Search">
+            <label for="Input" id="instructions">Search!</label>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="Input">
+            <button class="btn btn-outline-info" type="submit" id="addTopic">Search</button>
+          </form>
+</nav>
+
+<div class="container">
+        <div class="row">
+            <div class="btn-group inline pull-left">
+      <button class="btn btn-light" id="topic" data-search="Jon Snow">Jon Snow</button>
+      <button class="btn btn-light" id="topic" data-search="Daenerys Targaryen">Daenerys Targaryen</button>
+      <button class="btn btn-light" id="topic" data-search="Arya Stark">Arya Stark</button>
+      <button class="btn btn-light" id="topic" data-search="Tyrion Lannister">Tryrion Lannister</button>
+
+      <div id="myButtons"></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+      <span><div id="gifArea"></div></span>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</body>
